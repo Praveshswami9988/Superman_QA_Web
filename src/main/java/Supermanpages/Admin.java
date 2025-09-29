@@ -1,5 +1,6 @@
 package Supermanpages;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -10,7 +11,7 @@ public class Admin {
 	WebDriver driver;
 	By InventoryBtn =  By.xpath("//*[text()=\"Inventory\"]");
 	By PendingSample = By.xpath("//*[text()=\"Pending Sample\"]");
-	By PendingItem = By.xpath("//*[text()=\"Pending Item (1)\"]");
+	By PendingItem = By.xpath("//*[text()=\"Pending Item\"]");
 	By ReturnItem = By.xpath("//*[text()=\"Return Item\"]");
 	By ReturnHistory = By.xpath("//*[text()=\"Return History\"]");
 	By CreateReturn = By.xpath("//*[text()=\" Create Return for Resigned Subordinates \"]");
@@ -25,7 +26,7 @@ public class Admin {
 	By EmployeesleavesBtn = By.xpath("//*[text()=\"Employees Leaves\"]");
 	By SelectuserBtn = By.xpath("//*[text()=\"Select\"]");
 	By Selectbox = By.xpath("//*[@placeholder=\"Search under employee...\"]");
-	By Selectbox1 = By.xpath("//*[text()=\"AKBUL HUSSAIN BARBHUYA - 10050366 - SILCHAR\"]");
+	By Selectbox1 = By.xpath("//*[text()=\"MANABJYOTI  TALUKDAR - 10024783 - GUWAHATI\"]");
 	By BackBtn3 = By.xpath("(//*[@id=\"prefix__icon_48_Move\"])[1]");
 	By ZhoBtn = By.xpath("//*[text()=\"ZHO\"]");
 	By OrderBtn = By.xpath("//*[text()=\"Order\"]");
@@ -35,7 +36,12 @@ public class Admin {
 	By ExpenseBtn = By.xpath("//*[text()=\"Expense\"]");
 	By SubmitexpenseBtn = By.xpath("//*[text()=\"Submit Expenses\"]");
 	By SubmitexpensesBtn = By.xpath("//*[text()=\"Submit Expenses\"]");
-	By BackBtn5 = By.xpath("(//*[@data-testid=\"admin-back\"])[2]");
+	
+	//By MissBtn = By.xpath("(//*[@class=\"css-901oao r-q45uyb r-1loqt21 r-9d1ssk r-1b43r93 r-10u4nep\"])[1]");
+	//By MissBtn = By.xpath("//*[text()=\"Miscellaneous\"]");
+	//By ExcepBtn = By.xpath("//*[text()=\"Exception Summary\"]");
+	
+	By BackBtn5 = By.xpath("(//*[@id=\"prefix__Path-3\"])[2]");
 	By ApproveexpensesBtn = By.xpath("//*[text()=\"Approve Expenses\"]");
 	By ReviewBtn = By.xpath("(//*[text()=\"Review\"])[1]");
 	By ApproveBtn = By.xpath("//*[text()=\"Approve\"]");
@@ -221,10 +227,39 @@ public class Admin {
 	}
 	
 	
-	public void BackBtn5()
+	/*
+	
+	public void MissBtn() 
 	{
-		driver.findElement(BackBtn5).click();
+		
+		
+		driver.findElement(MissBtn).click();
 
+	}
+	
+	
+	public void ExcepBtn()
+	{
+		driver.findElement(ExcepBtn).click();
+
+	}
+	
+	*/
+	
+	public void BackBtn5() throws InterruptedException
+	{
+		
+		
+		 WebElement element = driver.findElement(BackBtn5);
+  	     JavascriptExecutor executor = (JavascriptExecutor)driver;
+  	     executor.executeScript("arguments[0].click();", element);
+  	     Thread.sleep(1000);
+		
+		
+		
+		
+		//driver.findElement(BackBtn5).click();
+        
 	}
 	
 	public void ApproveexpensesBtn()

@@ -1,51 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-17T22:38:26 IST" name="Default suite" finished-at="2025-07-17T22:41:38 IST" duration-ms="191811">
+  <suite started-at="2025-09-26T11:04:26 IST" name="Default suite" finished-at="2025-09-26T11:10:20 IST" duration-ms="354016">
     <groups>
     </groups>
-    <test started-at="2025-07-17T22:38:26 IST" name="Default test" finished-at="2025-07-17T22:41:38 IST" duration-ms="191811">
+    <test started-at="2025-09-26T11:04:26 IST" name="Default test" finished-at="2025-09-26T11:10:20 IST" duration-ms="354016">
       <class name="SupermanQA.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:SupermanQA.LoginTest@ed7f8b4]" started-at="2025-07-17T22:38:26 IST" name="setup" finished-at="2025-07-17T22:38:50 IST" duration-ms="23884" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SupermanQA.LoginTest@6db9f5a4]" started-at="2025-09-26T11:04:26 IST" name="setup" finished-at="2025-09-26T11:05:10 IST" duration-ms="43875" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="SupermanLogin()[pri:1, instance:SupermanQA.LoginTest@ed7f8b4]" started-at="2025-07-17T22:38:50 IST" name="SupermanLogin" finished-at="2025-07-17T22:38:58 IST" duration-ms="8358" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SupermanLogin -->
-        <test-method signature="SupermanHome()[pri:2, instance:SupermanQA.LoginTest@ed7f8b4]" started-at="2025-07-17T22:38:58 IST" name="SupermanHome" finished-at="2025-07-17T22:39:10 IST" duration-ms="11885" status="PASS">
+        <test-method signature="SupermanHome()[pri:1, instance:SupermanQA.LoginTest@6db9f5a4]" started-at="2025-09-26T11:05:10 IST" name="SupermanHome" finished-at="2025-09-26T11:05:37 IST" duration-ms="27686" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SupermanHome -->
-        <test-method signature="clickAdminUsingSikuli()[pri:3, instance:SupermanQA.LoginTest@ed7f8b4]" started-at="2025-07-17T22:39:10 IST" name="clickAdminUsingSikuli" finished-at="2025-07-17T22:39:22 IST" duration-ms="11593" status="PASS">
+        <test-method signature="Verify_Plan_meet()[pri:2, instance:SupermanQA.LoginTest@6db9f5a4]" started-at="2025-09-26T11:05:37 IST" name="Verify_Plan_meet" finished-at="2025-09-26T11:05:49 IST" duration-ms="11596" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickAdminUsingSikuli -->
-        <test-method signature="Admin()[pri:4, instance:SupermanQA.LoginTest@ed7f8b4]" started-at="2025-07-17T22:39:22 IST" name="Admin" finished-at="2025-07-17T22:41:38 IST" duration-ms="136016" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
+        </test-method> <!-- Verify_Plan_meet -->
+        <test-method signature="Verify_Review_DCR_Button()[pri:3, instance:SupermanQA.LoginTest@6db9f5a4]" started-at="2025-09-26T11:05:49 IST" name="Verify_Review_DCR_Button" finished-at="2025-09-26T11:06:06 IST" duration-ms="17290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Review_DCR_Button -->
+        <test-method signature="Verify_Add_Adhocparty()[pri:4, instance:SupermanQA.LoginTest@6db9f5a4]" started-at="2025-09-26T11:06:06 IST" name="Verify_Add_Adhocparty" finished-at="2025-09-26T11:06:34 IST" duration-ms="27970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Add_Adhocparty -->
+        <test-method signature="Verify_AdhocParty_DCR()[pri:5, instance:SupermanQA.LoginTest@6db9f5a4]" started-at="2025-09-26T11:06:34 IST" name="Verify_AdhocParty_DCR" finished-at="2025-09-26T11:07:34 IST" duration-ms="59675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_AdhocParty_DCR -->
+        <test-method signature="Verify_Add_NFA()[pri:6, instance:SupermanQA.LoginTest@6db9f5a4]" started-at="2025-09-26T11:07:34 IST" name="Verify_Add_NFA" finished-at="2025-09-26T11:08:22 IST" duration-ms="48126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Add_NFA -->
+        <test-method signature="Verify_Submit_DCR()[pri:7, instance:SupermanQA.LoginTest@6db9f5a4]" started-at="2025-09-26T11:08:22 IST" name="Verify_Submit_DCR" finished-at="2025-09-26T11:08:23 IST" duration-ms="1139" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=138.0.7204.101)
+              <![CDATA[element click intercepted: Element <div dir="auto" class="css-901oao r-jwli3a r-1gz8vgb r-n6v787 r-oxtfae r-rjixqe" data-testid="submit-button">...</div> is not clickable at point (868, 82). Other element would receive the click: <div class="css-1dbjc4n r-18u37iz r-1wtj0ep r-1yflyrw r-13qz1uu r-1pwx3x0" style="">...</div>
+  (Session info: chrome=140.0.7339.186)
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7a9f3408c9ae45f6a81744bf3433b944, clickElement {id=f.FD516930B3E88E1AB2B5E439DEDE7BF2.d.5A81B0438815BA9F8075CEA6F0666B9F.e.167}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PRAVES~1.SWA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61722}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61722/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (7a9f3408c9ae45f6a81744bf3433b944)] -> xpath: //*[text()="Submit Expenses"]]
-Session ID: 7a9f3408c9ae45f6a81744bf3433b944]]>
+Command: [057c84358ebcec6ad785f119d0a1869d, clickElement {id=f.CA3DEEA423578E6C43B55C200B6BD2B2.d.B5E691288C64EADEC99673815B021FF7.e.109}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.186, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\PRAVES~1.SWA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65239}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65239/devtoo..., se:cdpVersion: 140.0.7339.186, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (057c84358ebcec6ad785f119d0a1869d)] -> xpath: //*[text()="Submit"]]
+Session ID: 057c84358ebcec6ad785f119d0a1869d]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=138.0.7204.101)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div dir="auto" class="css-901oao r-jwli3a r-1gz8vgb r-n6v787 r-oxtfae r-rjixqe" data-testid="submit-button">...</div> is not clickable at point (868, 82). Other element would receive the click: <div class="css-1dbjc4n r-18u37iz r-1wtj0ep r-1yflyrw r-13qz1uu r-1pwx3x0" style="">...</div>
+  (Session info: chrome=140.0.7339.186)
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7a9f3408c9ae45f6a81744bf3433b944, clickElement {id=f.FD516930B3E88E1AB2B5E439DEDE7BF2.d.5A81B0438815BA9F8075CEA6F0666B9F.e.167}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PRAVES~1.SWA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61722}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61722/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (7a9f3408c9ae45f6a81744bf3433b944)] -> xpath: //*[text()="Submit Expenses"]]
-Session ID: 7a9f3408c9ae45f6a81744bf3433b944
+Command: [057c84358ebcec6ad785f119d0a1869d, clickElement {id=f.CA3DEEA423578E6C43B55C200B6BD2B2.d.B5E691288C64EADEC99673815B021FF7.e.109}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.186, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\PRAVES~1.SWA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65239}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65239/devtoo..., se:cdpVersion: 140.0.7339.186, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (057c84358ebcec6ad785f119d0a1869d)] -> xpath: //*[text()="Submit"]]
+Session ID: 057c84358ebcec6ad785f119d0a1869d
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -58,8 +70,8 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at Supermanpages.Admin.SubmitexpensesBtn(Admin.java:219)
-at SupermanQA.LoginTest.Admin(LoginTest.java:224)
+at Supermanpages.PlanNmeet.SubmitBtn(PlanNmeet.java:215)
+at SupermanQA.LoginTest.Verify_Submit_DCR(LoginTest.java:178)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -88,10 +100,34 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Admin -->
+        </test-method> <!-- Verify_Submit_DCR -->
+        <test-method signature="Verify_Performance_Tab()[pri:8, instance:SupermanQA.LoginTest@6db9f5a4]" started-at="2025-09-26T11:08:23 IST" name="Verify_Performance_Tab" finished-at="2025-09-26T11:08:40 IST" duration-ms="16694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Performance_Tab -->
+        <test-method signature="Verify_Directory_Tab()[pri:9, instance:SupermanQA.LoginTest@6db9f5a4]" started-at="2025-09-26T11:08:40 IST" name="Verify_Directory_Tab" finished-at="2025-09-26T11:09:03 IST" duration-ms="23099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Directory_Tab -->
+        <test-method signature="Verify_GSP_Tab()[pri:10, instance:SupermanQA.LoginTest@6db9f5a4]" started-at="2025-09-26T11:09:03 IST" name="Verify_GSP_Tab" finished-at="2025-09-26T11:09:25 IST" duration-ms="22164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_GSP_Tab -->
+        <test-method signature="Verify_Import_Dcr()[pri:11, instance:SupermanQA.LoginTest@6db9f5a4]" started-at="2025-09-26T11:09:25 IST" name="Verify_Import_Dcr" finished-at="2025-09-26T11:09:56 IST" duration-ms="30559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Import_Dcr -->
+        <test-method signature="Verify_Logout()[pri:12, instance:SupermanQA.LoginTest@6db9f5a4]" started-at="2025-09-26T11:09:56 IST" name="Verify_Logout" finished-at="2025-09-26T11:10:19 IST" duration-ms="23824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:SupermanQA.LoginTest@6db9f5a4]" started-at="2025-09-26T11:10:19 IST" name="closebrowser" finished-at="2025-09-26T11:10:20 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
       </class> <!-- SupermanQA.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

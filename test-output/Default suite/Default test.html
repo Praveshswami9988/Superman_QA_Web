@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>11/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jul 17 22:38:26 IST 2025</td>
+<td>Started on:</td><td>Fri Sep 26 11:04:26 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>191 seconds (191811 ms)</td>
+<tr><td>Total time:</td><td>354 seconds (354016 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='SupermanQA.LoginTest.Admin()'><b>Admin</b><br>Test class: SupermanQA.LoginTest</td>
-<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=138.0.7204.101)
+<td title='SupermanQA.LoginTest.Verify_Submit_DCR()'><b>Verify_Submit_DCR</b><br>Test class: SupermanQA.LoginTest</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div dir=&quot;auto&quot; class=&quot;css-901oao r-jwli3a r-1gz8vgb r-n6v787 r-oxtfae r-rjixqe&quot; data-testid=&quot;submit-button&quot;&gt;...&lt;/div&gt; is not clickable at point (868, 82). Other element would receive the click: &lt;div class=&quot;css-1dbjc4n r-18u37iz r-1wtj0ep r-1yflyrw r-13qz1uu r-1pwx3x0&quot; style=&quot;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=140.0.7339.186)
 Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7a9f3408c9ae45f6a81744bf3433b944, clickElement {id=f.FD516930B3E88E1AB2B5E439DEDE7BF2.d.5A81B0438815BA9F8075CEA6F0666B9F.e.167}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PRAVES~1.SWA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61722}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61722/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (7a9f3408c9ae45f6a81744bf3433b944)] -&gt; xpath: //*[text()=&quot;Submit Expenses&quot;]]
-Session ID: 7a9f3408c9ae45f6a81744bf3433b944
+Command: [057c84358ebcec6ad785f119d0a1869d, clickElement {id=f.CA3DEEA423578E6C43B55C200B6BD2B2.d.B5E691288C64EADEC99673815B021FF7.e.109}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.186, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\PRAVES~1.SWA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65239}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65239/devtoo..., se:cdpVersion: 140.0.7339.186, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (057c84358ebcec6ad785f119d0a1869d)] -&gt; xpath: //*[text()=&quot;Submit&quot;]]
+Session ID: 057c84358ebcec6ad785f119d0a1869d
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -98,8 +98,8 @@ Session ID: 7a9f3408c9ae45f6a81744bf3433b944
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at Supermanpages.Admin.SubmitexpensesBtn(Admin.java:219)
-	at SupermanQA.LoginTest.Admin(LoginTest.java:224)
+	at Supermanpages.PlanNmeet.SubmitBtn(PlanNmeet.java:215)
+	at SupermanQA.LoginTest.Verify_Submit_DCR(LoginTest.java:178)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -126,16 +126,16 @@ Session ID: 7a9f3408c9ae45f6a81744bf3433b944
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace185583672", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace185583672'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=138.0.7204.101)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1983706553", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1983706553'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div dir=&quot;auto&quot; class=&quot;css-901oao r-jwli3a r-1gz8vgb r-n6v787 r-oxtfae r-rjixqe&quot; data-testid=&quot;submit-button&quot;&gt;...&lt;/div&gt; is not clickable at point (868, 82). Other element would receive the click: &lt;div class=&quot;css-1dbjc4n r-18u37iz r-1wtj0ep r-1yflyrw r-13qz1uu r-1pwx3x0&quot; style=&quot;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=140.0.7339.186)
 Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7a9f3408c9ae45f6a81744bf3433b944, clickElement {id=f.FD516930B3E88E1AB2B5E439DEDE7BF2.d.5A81B0438815BA9F8075CEA6F0666B9F.e.167}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\PRAVES~1.SWA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61722}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61722/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (7a9f3408c9ae45f6a81744bf3433b944)] -&gt; xpath: //*[text()=&quot;Submit Expenses&quot;]]
-Session ID: 7a9f3408c9ae45f6a81744bf3433b944
+Command: [057c84358ebcec6ad785f119d0a1869d, clickElement {id=f.CA3DEEA423578E6C43B55C200B6BD2B2.d.B5E691288C64EADEC99673815B021FF7.e.109}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.186, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\PRAVES~1.SWA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65239}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65239/devtoo..., se:cdpVersion: 140.0.7339.186, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (057c84358ebcec6ad785f119d0a1869d)] -&gt; xpath: //*[text()=&quot;Submit&quot;]]
+Session ID: 057c84358ebcec6ad785f119d0a1869d
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -148,8 +148,8 @@ Session ID: 7a9f3408c9ae45f6a81744bf3433b944
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at Supermanpages.Admin.SubmitexpensesBtn(Admin.java:219)
-	at SupermanQA.LoginTest.Admin(LoginTest.java:224)
+	at Supermanpages.PlanNmeet.SubmitBtn(PlanNmeet.java:215)
+	at SupermanQA.LoginTest.Verify_Submit_DCR(LoginTest.java:178)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -177,8 +177,8 @@ Session ID: 7a9f3408c9ae45f6a81744bf3433b944
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>136</td>
-<td>SupermanQA.LoginTest@ed7f8b4</td></tr>
+<td>1</td>
+<td>SupermanQA.LoginTest@6db9f5a4</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -189,20 +189,60 @@ Session ID: 7a9f3408c9ae45f6a81744bf3433b944
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='SupermanQA.LoginTest.Verify_Plan_meet()'><b>Verify_Plan_meet</b><br>Test class: SupermanQA.LoginTest</td>
+<td></td>
+<td>11</td>
+<td>SupermanQA.LoginTest@6db9f5a4</td></tr>
+<tr>
+<td title='SupermanQA.LoginTest.Verify_Directory_Tab()'><b>Verify_Directory_Tab</b><br>Test class: SupermanQA.LoginTest</td>
+<td></td>
+<td>23</td>
+<td>SupermanQA.LoginTest@6db9f5a4</td></tr>
+<tr>
 <td title='SupermanQA.LoginTest.SupermanHome()'><b>SupermanHome</b><br>Test class: SupermanQA.LoginTest</td>
 <td></td>
-<td>11</td>
-<td>SupermanQA.LoginTest@ed7f8b4</td></tr>
+<td>27</td>
+<td>SupermanQA.LoginTest@6db9f5a4</td></tr>
 <tr>
-<td title='SupermanQA.LoginTest.SupermanLogin()'><b>SupermanLogin</b><br>Test class: SupermanQA.LoginTest</td>
+<td title='SupermanQA.LoginTest.Verify_Review_DCR_Button()'><b>Verify_Review_DCR_Button</b><br>Test class: SupermanQA.LoginTest</td>
 <td></td>
-<td>8</td>
-<td>SupermanQA.LoginTest@ed7f8b4</td></tr>
+<td>17</td>
+<td>SupermanQA.LoginTest@6db9f5a4</td></tr>
 <tr>
-<td title='SupermanQA.LoginTest.clickAdminUsingSikuli()'><b>clickAdminUsingSikuli</b><br>Test class: SupermanQA.LoginTest</td>
+<td title='SupermanQA.LoginTest.Verify_Performance_Tab()'><b>Verify_Performance_Tab</b><br>Test class: SupermanQA.LoginTest</td>
 <td></td>
-<td>11</td>
-<td>SupermanQA.LoginTest@ed7f8b4</td></tr>
+<td>16</td>
+<td>SupermanQA.LoginTest@6db9f5a4</td></tr>
+<tr>
+<td title='SupermanQA.LoginTest.Verify_Add_Adhocparty()'><b>Verify_Add_Adhocparty</b><br>Test class: SupermanQA.LoginTest</td>
+<td></td>
+<td>27</td>
+<td>SupermanQA.LoginTest@6db9f5a4</td></tr>
+<tr>
+<td title='SupermanQA.LoginTest.Verify_GSP_Tab()'><b>Verify_GSP_Tab</b><br>Test class: SupermanQA.LoginTest</td>
+<td></td>
+<td>22</td>
+<td>SupermanQA.LoginTest@6db9f5a4</td></tr>
+<tr>
+<td title='SupermanQA.LoginTest.Verify_AdhocParty_DCR()'><b>Verify_AdhocParty_DCR</b><br>Test class: SupermanQA.LoginTest</td>
+<td></td>
+<td>59</td>
+<td>SupermanQA.LoginTest@6db9f5a4</td></tr>
+<tr>
+<td title='SupermanQA.LoginTest.Verify_Import_Dcr()'><b>Verify_Import_Dcr</b><br>Test class: SupermanQA.LoginTest</td>
+<td></td>
+<td>30</td>
+<td>SupermanQA.LoginTest@6db9f5a4</td></tr>
+<tr>
+<td title='SupermanQA.LoginTest.Verify_Add_NFA()'><b>Verify_Add_NFA</b><br>Test class: SupermanQA.LoginTest</td>
+<td></td>
+<td>48</td>
+<td>SupermanQA.LoginTest@6db9f5a4</td></tr>
+<tr>
+<td title='SupermanQA.LoginTest.Verify_Logout()'><b>Verify_Logout</b><br>Test class: SupermanQA.LoginTest</td>
+<td></td>
+<td>23</td>
+<td>SupermanQA.LoginTest@6db9f5a4</td></tr>
 </table><p>
 </body>
 </html>

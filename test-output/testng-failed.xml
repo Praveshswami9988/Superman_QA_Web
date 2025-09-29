@@ -6,7 +6,8 @@
       <class name="SupermanQA.LoginTest">
         <methods>
           <include name="setup"/>
-          <include name="Admin"/>
+          <include name="closebrowser"/>
+          <include name="Verify_Submit_DCR"/>
         </methods>
       </class> <!-- SupermanQA.LoginTest -->
     </classes>
